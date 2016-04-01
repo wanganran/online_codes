@@ -219,6 +219,8 @@ erasure_online_codes_decoder<T>::erasure_online_codes_decoder
 	this->random_selection = NULL;
 	this->output_data = NULL;
 	this->aux_count = NULL;
+	
+	this->decoded_blocks_count=0;
 }
 
 template<typename T>
